@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.calculator, .primos-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#display {
+    width: 320px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    text-align: right;
+    border: 1px solid #ccc;
+    background: #333;
+    color: white;
+}
+
+.buttons button, .primos-container button {
+    width: 80px;
+    height: 80px;
+    font-size: 24px;
+    margin: 5px;
+    background-color: #222;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttons button:hover, .primos-container button:hover {
+    background-color: #444;
+}
+
+.primos-container {
+    text-align: center;
+}
+
+#primos-list {
+    margin: 20px;
+    font-size: 24px;
+    background: #333;
+    padding: 20px;
+    border-radius: 5px;
+}
